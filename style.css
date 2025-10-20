@@ -1,0 +1,165 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif; /* Fonte simples */
+    background-color: #f4f4f9; /* Cor de fundo suave */
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header e Navegação (Cores Alegres como a Ri Happy) */
+header {
+    background-color: #ff5722; /* Laranja Vibrante */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Comic Sans MS', cursive; /* Fonte divertida */
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+    padding-top: 5px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00; /* Amarelo de destaque */
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    background-color: #00bcd4; /* Azul Turquesa */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover, .btn-comprar:hover {
+    background-color: #0097a7;
+}
+
+.btn-comprar {
+    background-color: #4caf50; /* Verde para comprar */
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Seções Principais */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Banner/Hero */
+.hero {
+    text-align: center;
+    background-color: #ffcc00; /* Amarelo Forte */
+    padding: 40px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Cards de Produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.produto-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.produto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.preco {
+    color: #e91e63; /* Rosa/Pink de destaque */
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Carrinho */
+#lista-carrinho {
+    list-style: disc;
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+#lista-carrinho li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #eee;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
